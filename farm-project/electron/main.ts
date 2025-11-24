@@ -52,12 +52,20 @@ function createWindow() {
   }
 }
 
-
-
-
 app.on('window-all-closed', () => {
   app.quit()
   win = null
 })
 
 app.whenReady().then(createWindow)
+
+const { globalShortcut } = require('electron');
+
+app.whenReady().then(() => {
+  globalShortcut.register('F12', () => {
+    const focusedWindow = BrowserWindow.getFocusedWindow();
+    if (focusedWindow) {
+      focusedWindow.webContents.toggleDevTools();
+    }
+  });
+});
