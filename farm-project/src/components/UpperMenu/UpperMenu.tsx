@@ -12,10 +12,10 @@ export function UpperMenu() {
                     <div className="row"></div>
                 </div>
                 <h3>Standart</h3>
-                <ArrowUpRight />
+                <ArrowUpRight className="icon" />
             </div>
             <div className="right-side">
-                <ClockFading />
+                <ClockFading size={22} className="icon" />
             </div>
         </div>
     );

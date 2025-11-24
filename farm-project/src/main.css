@@ -7,7 +7,7 @@
 }
 
 .container {
-  width: 270px;
+  width: 285px;
   height: 530px;
 }
 
@@ -48,4 +48,8 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.icon {
+  cursor: pointer;
 }

@@ -5,7 +5,8 @@
     justify-content: space-between;
 }
 
-.upperMenu-wrapper .left-side {
+.upperMenu-wrapper .left-side,
+.right-side {
     display: flex;
     align-items: center;
 }

@@ -1,12 +1,14 @@
 .resultField-wrapper {
     width: 100%;
-    height: 60px;
+    height: 80px;
     display: flex;
     justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .result {
-    font-size: 38px;
+    font-size: 46px;
     font-weight: 500;
     margin: 0;
+    padding: 0;
 }
