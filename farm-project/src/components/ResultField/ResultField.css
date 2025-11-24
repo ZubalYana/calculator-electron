@@ -1,0 +1,12 @@
+.resultField-wrapper {
+    width: 270px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.result {
+    font-size: 38px;
+    font-weight: 500;
+    margin: 0;
+}

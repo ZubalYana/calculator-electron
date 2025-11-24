@@ -1,0 +1,26 @@
+.upperMenu-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.burger {
+    width: 25px;
+    height: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.burger .row {
+    width: 20px;
+    height: 1px;
+    background-color: #fff;
+}
+
+.upperMenu-wrapper h3 {
+    margin: 0 14px;
+    font-size: 20px;
+    font-weight: 500;
+}
