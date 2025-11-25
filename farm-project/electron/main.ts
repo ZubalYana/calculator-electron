@@ -29,7 +29,7 @@ let win: BrowserWindow | null
 function createWindow() {
   win = new BrowserWindow({
     width: 335,
-    height: 530,
+    height: 485,
     icon: path.join(process.env.FARM_PUBLIC, 'logo.svg'),
     webPreferences: {
       preload: path.join(__dirname, './preload.mjs'),
