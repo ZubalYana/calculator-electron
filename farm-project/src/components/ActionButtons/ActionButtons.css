@@ -29,11 +29,23 @@
     background-color: #323232;
 }
 
+.action-button-darker:hover {
+    background-color: #3B3B3B;
+}
+
 .action-button-lighter {
     background-color: #3B3B3B;
+}
+
+.action-button-lighter:hover {
+    background-color: #323232;
 }
 
 .action-button-pink {
     background-color: #F56763;
     color: #1E1E1E;
+}
+
+.action-button-pink:hover {
+    background-color: #DE5F5B;
 }
