@@ -10,9 +10,12 @@
     "farm": "farm"
   },
   "dependencies": {
+    "@types/react-katex": "^3.0.4",
+    "katex": "^0.16.25",
     "lucide-react": "^0.554.0",
     "react": "18",
-    "react-dom": "18"
+    "react-dom": "18",
+    "react-katex": "^3.1.0"
   },
   "devDependencies": {
     "@electron-forge/cli": "^7.4.0",

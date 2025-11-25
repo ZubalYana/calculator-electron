@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./ResultField.css"
 export function ResultField() {
     const [result, setResult] = useState(0);

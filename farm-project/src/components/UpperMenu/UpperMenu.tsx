@@ -1,4 +1,3 @@
-import React from "react";
 import "./UpperMenu.css"
 import { ArrowUpRight, ClockFading } from "lucide-react"
 export function UpperMenu() {
